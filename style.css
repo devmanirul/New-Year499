@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    margin: 0px 50px;
+}
+.header{
+    background-image: url(./images/Banner\ Image.png);
+    height: 600px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.header::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.37), rgba(255,255,255,0));
+}
+.header h2 {
+    color: white;
+    z-index: 10;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 400;
+}
+.header h1 {
+    z-index: 10;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 16px;
+    padding: 0px 78px;
+}
+.catagori{
+    text-align: center;
+    margin-top: 100px;
+}
+.catagori h1{
+    font-size: 88px;
+    color: #F00;
+    font-weight: 900;
+    line-height: normal;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;}
+.catagori p {
+    font-size: 24px;
+    color: #F00;
+    font-weight: 500;
+    line-height: normal;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+.catagori h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+.catagori img {
+    width: 800px;
+    height: 500px;
+    margin-top: 48px;
+}
+.party {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+    color: white;
+    margin-top: 120px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./images/Vectorrr.png);
+    border-radius: 10px;
+}
+.party .party-left{
+    text-align: center;
+}
+.party .party-left h1 {
+    width: 640px;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 5.04px;
+    padding: 0px 0px 0px 80px;
+}
+.party .party-left p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px 0px 10px 80px;
+}
+.party .party-left h2 {
+    text-align: start;
+    margin-left: 110px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+}
+.party .party-right img {
+    padding: 67px 100px 60px 40px;
+}
+.coming-soon{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.coming-soon p {
+    font-size: 32px;
+    margin-top: 120px;
+    margin-top: 100px;
+    line-height: 45px;
+    font-weight: 500;
+}
+.coming-soon p span{
+    color: #F00;
+}
+.coming-soon .btn {
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    margin: 12px 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.offer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+.offer .one{
+    width: 31%;
+}
+.offer .one .best{
+    color: #F00;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.offer .one .coming {
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.offer .one .dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.offer .two{
+    width: 31%;
+
+}
+.offer .two .Ellipse{
+    border: 10px solid #F00;
+    border-radius: 50%;
+    width: 100%;
+    padding: 20px;
+}
+.offer .three{
+    width: 31%;
+
+}
+.offer .three h1{}
+.offer .three p{}
+.offer .three img{}
+.portfolieo{
+    text-align: center;
+}
