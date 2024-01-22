@@ -160,7 +160,7 @@ body{
     overflow: hidden;
 }
 .offer .one{
-    width: 31%;
+    /* width: 31%; */
 }
 .offer .one .best{
     color: #F00;
@@ -191,7 +191,7 @@ body{
     line-height: 25px;
 }
 .offer .two{
-    width: 31%;
+    /* width: 31%; */
 
 }
 .offer .two .Ellipse{
@@ -199,14 +199,73 @@ body{
     border-radius: 50%;
     width: 100%;
     padding: 20px;
+    height: 350px;
+    width: 350px;
 }
 .offer .three{
-    width: 31%;
+    /* width: 31%; */
 
 }
 .offer .three h1{}
-.offer .three p{}
+.offer .three p {
+    height: 60px;
+    width: 216px;
+    font-size: smaller;
+}
 .offer .three img{}
 .portfolieo{
     text-align: center;
+}
+.portfolieo {
+    margin-top:120px;
+}
+.portfolieo .top{}
+.portfolieo .top .WHAT{
+    color: #070211;
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolieo .top .Holidays{
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.portfolieo .top .Holidays span{
+    color: #F00;
+}
+.portfolieo .top .sit{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.portfolieo .bottum{}
+.portfolieo .bottum .left{}
+.portfolieo .bottum .mid{}
+.portfolieo .bottum .right{}
+.portfolieo .bottum .bottum-bottum{}
+/* subscribe section */
+.subscrib {
+    margin-top: 120px;
+}
+.subscrib .para{}
+.subscrib .para .THE{}
+.subscrib .para .Our{}
+.subscrib .para .amet{}
+.portfolieo .pics {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3, 1fr;
 }
