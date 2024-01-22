@@ -116,6 +116,7 @@ body{
     line-height: 20px;
     text-align: left;
     margin: 10px 0px 10px 80px;
+    color: rgba(255, 255, 255, 0.80);
 }
 .party .party-left h2 {
     text-align: start;
@@ -333,28 +334,55 @@ body{
     color: #FFF;
     background-color: #F00;
     border-radius: 0px 50px 50px 0px;
+    margin-left: -5px;
 }
 /* footer section */
 .footer{
     margin-top: 120px;
     background: #000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     color: #FFF;
     border-radius: 10px;
-    height: 300px;
+    height: 360px;
     padding: 0px 50px;
     line-height: 40px;
+    font-size: 20px;
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+}
+.footer .footer-top{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 700px;
 }
 .footer .img .img-top{
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 15px;
+}
+.footer .fours hr{
+    background: rgba(255, 255, 255, 0.15);;
+}
+.footer .fours {
+
 }
 .footer .img .img-down{
     display: flex;
     flex-direction: row;
     gap: 8px;
+}
+
+.footer .footer-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 699px;
+    margin-bottom: 50px;
 }
