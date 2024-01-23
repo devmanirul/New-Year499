@@ -11,6 +11,7 @@ body{
 .container{
     margin: 0px 50px;
 }
+/* header */
 .header{
     background-image: url(./images/Banner\ Image.png);
     height: 600px;
@@ -49,6 +50,7 @@ body{
     margin-top: 16px;
     padding: 0px 78px;
 }
+/* catagori */
 .catagori{
     text-align: center;
     margin-top: 100px;
@@ -83,6 +85,7 @@ body{
     height: 500px;
     margin-top: 48px;
 }
+/* party */
 .party {
     display: flex;
     justify-content: center;
@@ -127,8 +130,8 @@ body{
 .party .party-right img {
     padding: 67px 100px 60px 40px;
 }
-/* coming-soon */
-.coming-soon{
+/* New-Park */
+.New-Park{
     margin-top: 120px;
     display: flex;
     flex-direction: column;
@@ -140,17 +143,17 @@ body{
     border-radius: 10px;
     height: 300px;
 }
-.coming-soon p {
+.New-Park p {
     font-size: 32px;
     margin-top: 120px;
     margin-top: 100px;
     line-height: 45px;
     font-weight: 500;
 }
-.coming-soon p span{
+.New-Park p span{
     color: #F00;
 }
-.coming-soon .btn {
+.New-Park .btn {
     background-color: #F00;
     color: #FFF;
     border: none;
@@ -158,7 +161,9 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
 }
-.offer {
+
+/* Coming-Soon */
+.Coming-Soon {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -166,10 +171,10 @@ body{
     flex-direction: row;
     overflow: hidden;
 }
-.offer .one{
-    /* width: 31%; */
+.Coming-Soon .one{
+
 }
-.offer .one .best{
+.Coming-Soon .one .best{
     color: #F00;
     text-align: start;
     font-family: 'Inter', sans-serif;
@@ -180,7 +185,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.offer .one .coming {
+.Coming-Soon .one .coming {
     font-family: 'Merriweather', serif;
     color: #070211;
     font-size: 45px;
@@ -189,7 +194,7 @@ body{
     line-height: normal;
     text-transform: capitalize;
 }
-.offer .one .dolor {
+.Coming-Soon .one .dolor {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -197,10 +202,10 @@ body{
     font-weight: 400;
     line-height: 25px;
 }
-.offer .two{
+.Coming-Soon .two{
 
 }
-.offer .two .Ellipse{
+.Coming-Soon .two .Ellipse{
     border: 10px solid #F00;
     border-radius: 50%;
     width: 100%;
@@ -208,26 +213,25 @@ body{
     height: 350px;
     width: 350px;
 }
-.offer .three{
+.Coming-Soon .three{
 
 
 }
-.offer .three h1{}
-.offer .three p {
+.Coming-Soon .three h1{}
+.Coming-Soon .three p {
     height: 60px;
     width: 216px;
     font-size: smaller;
 }
-.offer .three img{}
-.portfolieo{
+.Coming-Soon .three img{}
+
+/* FUNCTIONAL */
+.FUNCTIONAL{
     text-align: center;
-}
-/* portfolieo */
-.portfolieo {
     margin-top:120px;
 }
-.portfolieo .top{}
-.portfolieo .top .WHAT{
+.FUNCTIONAL .top{}
+.FUNCTIONAL .top .WHAT{
     color: #070211;
     font-family: "inter", sans-serif;
     font-size: 20px;
@@ -235,7 +239,7 @@ body{
     font-weight: 500;
     line-height: normal;
 }
-.portfolieo .top .Holidays{
+.FUNCTIONAL .top .Holidays{
     text-align: center;
     font-family: "Merriweather", sans-serif;
     font-size: 65px;
@@ -245,10 +249,10 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.portfolieo .top .Holidays span{
+.FUNCTIONAL .top .Holidays span{
     color: #F00;
 }
-.portfolieo .top .sit{
+.FUNCTIONAL .top .sit{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: "inter", sans-serif;
@@ -258,36 +262,36 @@ body{
     line-height: 24px;
 }
 
-.portfolieo .bottum{}
-.portfolieo .bottum .left{}
-.portfolieo .bottum .mid{}
-.portfolieo .bottum .right{}
-.portfolieo .bottum .bottum-bottum {
+.FUNCTIONAL .bottum{}
+.FUNCTIONAL .bottum .left{}
+.FUNCTIONAL .bottum .mid{}
+.FUNCTIONAL .bottum .right{}
+.FUNCTIONAL .bottum .bottum-bottum {
     width: -webkit-fill-available;
 }
 
 /* subscribe section */
-.subscrib {
+.Portfolio {
     margin-top: 120px;
 }
-.subscrib .para{}
-.subscrib .para .THE {
+.Portfolio .para{}
+.Portfolio .para .THE {
     line-height: 40px;
     font-size: 35px;
     color: #f00;
     font-family: "inter", sans-serif;
 }
-.subscrib .para .Our {
+.Portfolio .para .Our {
     font-size: 55px;
     font-family: "Merriweather", sans-serif;
     line-height: 90px;
 }
-.subscrib .para .amet {
+.Portfolio .para .amet {
     color: gray;
     font-size: 17px;
     line-height: 35px;
 }
-.subscrib .pics {
+.Portfolio .pics {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
