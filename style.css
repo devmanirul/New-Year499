@@ -262,13 +262,36 @@ body{
     line-height: 24px;
 }
 
-.FUNCTIONAL .bottum{}
-.FUNCTIONAL .bottum .left{}
-.FUNCTIONAL .bottum .mid{}
-.FUNCTIONAL .bottum .right{}
-.FUNCTIONAL .bottum .bottum-bottum {
-    width: -webkit-fill-available;
+/* .FUNCTIONAL .bottum{
+    
 }
+.FUNCTIONAL .bottum .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FUNCTIONAL .bottum .bottum-left .first{
+     
+    z-index: 2;
+    opacity: 30px;
+}
+.FUNCTIONAL .bottum .bottum-left .mid{
+    position: absolute;
+    z-index: 2;
+    margin-top: 270px;
+    margin-left: -150px;
+    
+}
+.FUNCTIONAL .bottum .bottum-left .last{
+    position: relative;
+    margin-bottom: -5px;
+}
+ 
+.FUNCTIONAL .bottum .right{}
+.FUNCTIONAL .bottum .bottum-right {
+    z-index: 1;
+} */
 
 /* subscribe section */
 .Portfolio {
